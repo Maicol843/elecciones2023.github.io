@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.header-content, .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #080808;
+    padding: 10px;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.header-content button{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-content button:hover{
+    background-color: blue;
+}
+
+/* Media queries para dispositivos más pequeños */
+@media only screen and (max-width: 600px) {
+    .table-container {
+        max-width: 90%; /* Ancho máximo ajustado para dispositivos más pequeños */
+    }
+    main{
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    main{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    main{
+        height: 100vh;
+    }
+}

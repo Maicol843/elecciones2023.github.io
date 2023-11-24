@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-  cargarDatos();
-  calcularTotales();
+    cargarDatos();
+    calcularTotales();
 });
 
 function cargarDatos() {
@@ -88,7 +88,6 @@ function guardarPDF() {
     // Usa html2pdf para generar el PDF y descargarlo
     html2pdf(resultadosTable, opciones);
 }
-
 
 function borrarDatos() {
     // Borra todos los datos del localStorage

@@ -1,9 +1,11 @@
+/*---BODY---*/
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
+/*---HEADER---*/
 header{
     background-color: black;
     color: #fff;
@@ -11,16 +13,24 @@ header{
     text-align: center;
 }
 
-footer{
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    font-size: 0.8rem;
-}
-
 .header-content, .footer-content {
     display: flex;
     justify-content: space-between;
+}
+
+.header-content button{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-content button:hover{
+    background-color: blue;
 }
 
 .logo-container {
@@ -33,11 +43,13 @@ footer{
     margin-right: 10px;
 }
 
+/*---MAIN---*/
 main {
     padding: 20px;
     text-align: center;
 }
 
+/*TABLE*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -73,19 +85,12 @@ button:hover {
     background-color: #2980b9;
 }
 
-.header-content button{
-    margin: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    cursor: pointer;
-    background-color: rgb(39, 39, 39);
+/*---FOOTER---*/
+footer{
+    background-color: black;
     color: #fff;
-    border: none;
-    border-radius: 5px;
-}
-
-.header-content button:hover{
-    background-color: blue;
+    padding: 10px;
+    font-size: 0.8rem;
 }
 
 /* Media queries para dispositivos más pequeños */

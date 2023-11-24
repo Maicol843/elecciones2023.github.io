@@ -1,21 +1,16 @@
+/*---BODY---*/
 body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
 
+/*---HEADER---*/
 header{
     background-color: black;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
-
-footer{
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-    font-size: 0.8rem;
 }
 
 .header-content, .footer-content {
@@ -33,11 +28,13 @@ footer{
     margin-right: 10px;
 }
 
+/*---MAIN---*/
 main {
     padding: 20px;
     text-align: center;
 }
 
+/*FORMULARIO*/
 form {
     max-width: 300px; /* Ajusta el tamaño máximo del formulario según tus necesidades */
     margin: 0 auto;  /* Centra el formulario en la página */
@@ -106,6 +103,14 @@ button:hover {
 
 .c5{
     color:darkmagenta;
+}
+
+/*---FOOTER---*/
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.8rem;
 }
 
 /* Media queries para dispositivos más pequeños */

@@ -1,3 +1,4 @@
+/*---BODY---*/
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body {
     justify-content: center;
 }
 
+/*---FOOTER---*/
 footer{
     color: black;
     padding: 10px;
@@ -24,6 +26,7 @@ footer p{
     font-size: 0.7rem;
 }
 
+/*FORMULARIO*/
 .login-container {
     background-color: rgba(7, 7, 7, 0.4);
     padding: 20px;
